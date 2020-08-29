@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+        crossorigin="anonymous"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -24,48 +26,46 @@
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
           </ul>
         </div>
   </nav>
   
-  <!-- This is the main content -->
+  <!-- This is the main content containing a contact form -->
   <main class="container py-3">
         <div class="row">
             <div class="col-md-12">
-                <h1>About Me</h1>
+                <h1>Contact</h1>
             <hr class="border"/>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-12 py-3">
-                <img src="assets/IMG_7559.jpeg" class="img-thumbnail float-left portrait" alt="Portrait of Candice" width="150" height="200"> 
-                <p>I'm currently a freelance graphic designer studying to become a full-stack web developer. 
-                  I graduated from California University of Pennsylvaniain 2012 with a Bachelor of Science focused on 
-                  Graphic Design. Since then, I have been freelancing and doing contract work for an 
-                  educational company that specializes in student evaluation assessments. While I do enjoy graphic design, I 
-                  couldn't contain my interest in web development and therefore decided to expand my knowledge via the 
-                  John Hopkins Coding Bootcamp. 
-                </p>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Name</label>
+                <input type="Name" class="form-control" id="exampleInputName" placeholder="Name">
+              </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12 py-3">
-                <p>If I'm not in front of my laptop, I'm probably hanging from a rock, as climbing is my favorite pastime and stress reliever.
-                  I also enjoy hiking, camping, traveling, video games, Dungeons & Dragons, and coffee...lots of coffee.
-                </p>
-            </div>
-        </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        
   </main>
     
   <!-- Footer -->
