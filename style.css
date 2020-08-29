@@ -8,6 +8,11 @@ body {
 
 .container {
     background-color: white;
+    margin-top: 30px;
+}
+
+.portrait {
+    margin-right:30px;
 }
 
 .row {
@@ -17,3 +22,8 @@ body {
 footer {
     background-color: #FAA26D;
 }
+
+.por-pics {
+    margin: 0 auto;
+}
+
