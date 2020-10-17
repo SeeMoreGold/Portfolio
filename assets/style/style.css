@@ -9,6 +9,7 @@ body {
 .container {
     background-color: white;
     margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 .portrait {
@@ -17,6 +18,7 @@ body {
 
 .row {
     font-family: 'Varela Round', sans-serif;
+    
 }
 
 footer {
@@ -27,5 +29,11 @@ footer {
     display: none;
 }
     
+a {
+    color: #FAA26D;
+}
 
+a:hover {
+    color: purple;
+}
 
