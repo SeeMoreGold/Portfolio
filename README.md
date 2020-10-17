@@ -13,7 +13,7 @@ View this website on a default browser like Google Chrome. This website is respo
 * Bootstrap (https://getbootstrap.com/)
 
 ## Screenshots
-![Screen shot of about me page](assets/images/screen-shot.png?raw=true "Index screen shot")
+![Screen shot of about me page](assets/Screen-Shot.png?raw=true "Index screen shot")
 
 ## Credits
 
