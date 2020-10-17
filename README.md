@@ -1,6 +1,6 @@
-# Portfolio-Bootstrap
+# Portfolio
 A multi-page website utilizing bootstrap to display my personal portfolio.
-https://seemoregold.github.io/Portfolio-Bootstrap/
+https://seemoregold.github.io/Portfolio/
 
 ## Getting Started
 
