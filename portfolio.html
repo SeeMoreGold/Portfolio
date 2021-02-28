@@ -1,111 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css" />
+    <title>Candice Moreau</title>
+    <link
+      rel="icon"
+      href="assets/images/title-icon.png"
+      type="image/icon type"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="assets/style/style.css">
-  <title>Candice Moreau</title>
-  <link rel="icon" href="assets/images/title-icon.png" type="image/icon type">
+  <body>
+    <!-- This is the Nav bar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: #faa26d"
+    >
+      <a class="navbar-brand" href="index.html">Candice Moreau</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-</head>
-
-<body>
-  <!-- This is the Nav bar -->
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FAA26D;">
-    <a class="navbar-brand" href="index.html">Candice Moreau</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- This is the main content containing 3 portfolio cards -->
-  <main class="container py-3">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 id="mainTitle">Portfolio</h1>
-        <hr class="border" />
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"
+              >About Me <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="skills.html">Skills</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
       </div>
-    </div>
+    </nav>
 
-    <div class="row text-center">
-      <div class="col-md-6 mt-4">
-        <div class="card mx-auto p-2" style="width:325px">
-          <img class="card-img-top" src="assets/images/pour-decisions.png" alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title">Pour Decisions</h4>
-            <p class="card-text">A collaborative project.</p>
-            <a href="https://jrtwheeler.github.io/Pour-Decision/" class="card-link">Deployed Site</a>
-            <a href="https://github.com/jrtwheeler/Pour-Decision" class="card-link">GitHub Repo</a>
+    <!-- This is the main content containing 3 portfolio cards -->
+    <main class="container py-3">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 id="mainTitle">Portfolio</h1>
+          <hr class="border" />
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-md-6 mt-4">
+          <div class="card mx-auto p-2" style="width: 325px">
+            <img
+              class="card-img-top"
+              src="assets/images/pour-decisions.png"
+              alt="Card image"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Pour Decisions</h4>
+              <p class="card-text">A collaborative project.</p>
+              <a
+                href="https://jrtwheeler.github.io/Pour-Decision/"
+                class="card-link"
+                >Deployed Site</a
+              >
+              <a
+                href="https://github.com/jrtwheeler/Pour-Decision"
+                class="card-link"
+                >GitHub Repo</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4">
+          <div class="card p-2 mx-auto" style="width: 325px">
+            <img
+              class="card-img-top"
+              src="assets/images/code-quiz.png"
+              alt="Card image"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Code Quiz</h4>
+              <p class="card-text">A fun coding quiz.</p>
+              <a
+                href="https://seemoregold.github.io/Code-Quiz-Web-APIs/"
+                class="card-link"
+                >Deployed Site</a
+              >
+              <a
+                href="https://github.com/SeeMoreGold/Code-Quiz-Web-APIs"
+                class="card-link"
+                >GitHub Repo</a
+              >
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-md-6 mt-4">
-        <div class="card p-2 mx-auto" style="width:325px">
-          <img class="card-img-top" src="assets/images/code-quiz.png" alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title">Code Quiz</h4>
-            <p class="card-text">A fun coding quiz.</p>
-            <a href="https://seemoregold.github.io/Code-Quiz-Web-APIs/" class="card-link">Deployed Site</a>
-            <a href="https://github.com/SeeMoreGold/Code-Quiz-Web-APIs" class="card-link">GitHub Repo</a>
+
+      <div class="row">
+        <div class="col-md-12 mt-4">
+          <div class="card mx-auto p-2" style="width: 325px">
+            <img
+              class="card-img-top"
+              src="assets/images/work-planner.png"
+              alt="Card image"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Work Day Scheduler</h4>
+              <p class="card-text">A handy planner app for work.</p>
+              <a
+                href="https://seemoregold.github.io/Work-Day-Scheduler/"
+                class="card-link"
+                >Deployed Site</a
+              >
+              <a
+                href="https://github.com/SeeMoreGold/Work-Day-Scheduler"
+                class="card-link"
+                >GitHub Repo</a
+              >
+            </div>
           </div>
         </div>
-
       </div>
-    </div>
+    </main>
 
-    <div class="row">
-      <div class="col-md-12 mt-4">
-        <div class="card mx-auto p-2" style="width:325px">
-          <img class="card-img-top" src="assets/images/work-planner.png" alt="Card image">
-          <div class="card-body">
-            <h4 class="card-title">Work Day Scheduler</h4>
-            <p class="card-text">A handy planner app for work.</p>
-            <a href="https://seemoregold.github.io/Work-Day-Scheduler/" class="card-link">Deployed Site</a>
-            <a href="https://github.com/SeeMoreGold/Work-Day-Scheduler" class="card-link">GitHub Repo</a>
-          </div>
-        </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small fixed-bottom">
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        <img
+          style="text-align: right"
+          src="assets/images/footer-icon-1.png"
+          height="25"
+          width="25"
+        />
+        © 2020 Candice Moreau
+        <img
+          style="text-align: right"
+          src="assets/images/footer-icon-2.png"
+          height="25"
+          width="25"
+        />
       </div>
-      
-    </div>
-  </main>
-
-  <!-- Footer -->
-  <footer class="page-footer font-small fixed-bottom">
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">
-      <img style="text-align:right" src="assets/images/footer-icon-1.png" height="25" width="25">
-      © 2020 Candice Moreau
-      <img style="text-align:right" src="assets/images/footer-icon-2.png" height="25" width="25">
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
